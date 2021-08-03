@@ -3,5 +3,5 @@ HOW TO GET IT:
 CHOOSE WHICH CONFIGURATION U WANT
 COPY 
 PUT IN YOUR CONFIG FILES IN .CONFIG
-
+HOW IT LOOKS LIKE:
 https://www.mediafire.com/view/ex1watwvxt55i5n/i3_unixporn.png/file#
