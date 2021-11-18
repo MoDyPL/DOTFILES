@@ -34,7 +34,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec terminator
+bindsym $mod+Return exec kitty
 
 #firefox
 bindsym $mod+w exec firefox
@@ -46,7 +46,7 @@ bindsym $mod+f exec pcmanfm
 bindsym $mod+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec /home/moon/.config/rofi/launchers/text/launcher.sh
+bindsym $mod+d exec rofi -show drun -theme dmenu
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
