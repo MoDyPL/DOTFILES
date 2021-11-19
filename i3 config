@@ -239,11 +239,5 @@ exec_always nitrogen --restore
 bindsym XF86MonBrightnessUp exec xbacklight # increase screen brightness 
 bindsym XF86MonBrightnessDown exec xbacklight # decrease screen brightness
 
-
-#ROFI PIPESMENU XDD
-bindsym $mod+m exec /home/moon/.config/rofi/applets/applets/mpd.sh
-bindsym $mod+n exec /home/moon/.config/rofi/applets/applets/network.sh
-bindsym $mod+shift+v exec /home/moon/.config/rofi/applets/applets/volume.sh
-
 #Transparency
 exec_always picom
